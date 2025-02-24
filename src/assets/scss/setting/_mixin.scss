@@ -1,0 +1,29 @@
+/* Alignment in the center */
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Alignment of both sides */
+@mixin flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Center alignment */
+@mixin position-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Fixing the top */
+@mixin position-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}

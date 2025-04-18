@@ -1,15 +1,6 @@
 import React from "react";
 
-const contactText = [
-    {
-        link: "mailto:leonswork1007@gmail.com",
-        title: "mail : Contact me",
-    },
-    {
-        link: "https://github.com/Sol-Data",
-        title: "GITHUB : Go to github",
-    },
-];
+import { contactText } from "../constants";
 
 const Contact = () => {
     return (
@@ -38,6 +29,7 @@ const Contact = () => {
                         </a>
                     </div>
                 ))}
+                
               </div>
           </div>    
           <div className="contact__lines" aria-hidden="true">

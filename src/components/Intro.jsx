@@ -2,16 +2,15 @@ import React from "react";
 
 import about from "../assets/img/about.jpg";
 
-const introText = {
-    title: "IT developer",
-    desc: ["I continue", "to develop myself", "even at this moment"]
-}
+import { introText } from "../constants";
 
 const Intro = () => {
     return (
         <section id="intro">
             <div className="intro__inner">
-                <h3 className="intro__title">{introText.title}</h3>
+                <h2 className="intro__title">
+                    {introText.title}
+                </h2>
                 <div className="intro__lines" aria-hidden="true">
                     <span className="line"></span>
                     <span className="line"></span>

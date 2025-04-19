@@ -2,7 +2,7 @@
   "name": "portfolio-site-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sol-data.github.io/Portfolio-Site-React/",
+  "homepage": "https://sol-data.github.io/Portfolio-Site-React",
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
     "@testing-library/dom": "^10.4.0",

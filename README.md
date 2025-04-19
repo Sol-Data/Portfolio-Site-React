@@ -13,7 +13,7 @@ and analyze the strengths and weaknesses of each framework.
 In this project, you'll create four iterations of a portfolio concept site and learn how to use JavaScript frameworks to create sites efficiently.
 
 ## View the finished product 
-Preview :
+Preview : [Portfolio-Site-React](https://sol-data.github.io/Portfolio-Site-React/)
 
 ## Use Stack
 
